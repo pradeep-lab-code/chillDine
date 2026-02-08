@@ -9,7 +9,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  background-color: aliceblue;
+  background-color: rgb(235, 235, 240);
 }
 
 /*header-navbar*/
@@ -145,12 +145,11 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding: 30px;
-  background-color: rgb(235, 235, 240);
 }
 
 .about-image img {
   width: 100%;
-   max-width: 550px;
+  max-width: 550px;
   border: 1px;
   border-radius: 1rem;
   margin: 30px;
@@ -197,6 +196,103 @@ body {
 .about-features li {
   font-size: 16px;
   margin-bottom: 12px;
+}
+
+/* menu */
+#menu {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+.menu-container h2 {
+  color: brown;
+  background-color: rgb(223, 222, 222);
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.menu-subtitle {
+  font-size: 1.2rem;
+  margin: 15px;
+}
+.menu-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px;
+}
+
+.menu-card {
+  margin: 20px;
+  height: fit-content;
+  width: 300px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(80, 38, 38, 0.08);
+  align-items: center;
+  justify-content: center;
+}
+
+/* menu-hover */
+.menu-card:hover .menu-img {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(80, 38, 38, 0.3);
+}
+
+.menu-img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 10px auto;
+  transition: transform 0.3s ease;
+}
+
+
+.menu-card h3 {
+  color: brown;
+  margin: 5px;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.menu-card p {
+  font-size: 1rem;
+}
+
+.menu-grid span {
+  font-weight: bolder;
+  background-color: rgb(229, 181, 181);
+  padding: 5px;
+  border-radius: 6px;
+  margin: 10px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.menu-grid span:hover{
+  background-color: white;
+  color: green;
+}
+
+.menu-btn {
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+
 }
 
 /*responsiveness*/
@@ -270,8 +366,14 @@ body {
   }
 
   .about-info h2 {
-  margin: 10px;
-  font-size: 40px;
-  text-decoration: underline;
-}
+    margin: 10px;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  /* menu-page */
+  .menu-grid {
+    display: flex;
+    flex-direction: column;
+  }
 }
