@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChillDine | FullMenu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2>ChillDine</h2>
+        <ul class="nav-links">
+          <li><a href="./index.html#home">Home</a></li>
+          <li><a href="./index.html#about">About</a></li>
+          <li><a href="./index.html#menu">Menu</a></li>
+          <li>
+            <a href="./index.html#reservation" class="reserveBtn"
+              >Reserve Table</a
+            >
+          </li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li id="userArea"><a href="./login.html">Login</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+      </nav>
+    </header>
+    <header class="menu-header">
+      <h1>Our Full Menu</h1>
+      <p>Choose your favourite from ChillDine 🍽️</p>
+    </header>
+
+    <div class="menu-filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="food">Food</button>
+      <button class="filter-btn" data-category="drinks">Drinks</button>
+      <button class="filter-btn" data-category="dessert">Desserts</button>
+    </div>
+
+    <section class="menu-grid">
+      <div class="menu-card" data-category="food">
+        <img class="menu-img" src="./assets/images/burger.jpg" alt="Burger" />
+        <h3>Classic Burger</h3>
+        <p>Cheesy burger with fresh veggies</p>
+        <span>₹199</span>
+      </div>
+
+      <div class="menu-card" data-category="food">
+        <img
+          class="menu-img"
+          src="./assets/images/creamy_pasta.jpg"
+          alt="creamy_pasta"
+        />
+        <h3>Creamy Pasta</h3>
+        <p>Italian style creamy pasta</p>
+        <span>₹249</span>
+      </div>
+
+      <div class="menu-card" data-category="drinks">
+        <img
+          class="menu-img"
+          src="./assets/images/cold_coffee.jpg"
+          alt="cold_coffee"
+        />
+        <h3>Cold Coffee</h3>
+        <p>Chilled coffee with chocolate</p>
+        <span>₹149</span>
+      </div>
+
+      <div class="menu-card" data-category="drinks">
+        <img
+          class="menu-img"
+          src="./assets/images/mocktail.jpg"
+          alt="fruit_mocktail"
+        />
+        <h3>Fruit Mocktail</h3>
+        <p>Fresh fruity drink</p>
+        <span>₹129</span>
+      </div>
+
+      <div class="menu-card" data-category="dessert">
+        <img
+          class="menu-img"
+          src="./assets/images/choco_brownie.jpg"
+          alt="chocolate_brownie"
+        />
+        <h3>Chocolate Brownie</h3>
+        <p>Warm brownie with sauce</p>
+        <span>₹179</span>
+      </div>
+
+      <div class="menu-card" data-category="dessert">
+        <img
+          class="menu-img"
+          src="./assets/images/ice_cream.jpg"
+          alt="ice_cream"
+        />
+        <h3>Ice Cream</h3>
+        <p>Vanilla & chocolate scoop</p>
+        <span>₹99</span>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>ChillDine</h3>
+        <p>Comfort food. Cozy vibes.</p>
+
+        <div class="footer-socials">
+          <i class="ri-instagram-line"></i>
+          <i class="ri-facebook-circle-line"></i>
+          <i class="ri-twitter-x-line"></i>
+        </div>
+
+        <span>© 2026 ChillDine. All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
