@@ -17,6 +17,9 @@ https://chilldine.vercel.app/
 ### 🍽️ Menu Section
 ![Menu](./assets/screenshots/menu_page.png)
 
+### ☰ Full Menu
+![Full-Menu](./assets/screenshots/full_menu.png)
+
 ### 📅 Reservation Page
 ![Reservation](./assets/screenshots/reservation_page.png)
 
