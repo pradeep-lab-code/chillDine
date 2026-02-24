@@ -33,6 +33,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; 
 }
 
 .hamburger {
@@ -771,7 +772,6 @@ body {
 
 @media (max-width: 650px) {
   /* Navbar */
-
   .nav-links {
     display: none;
     position: absolute;
